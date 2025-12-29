@@ -123,9 +123,9 @@ class TerminalAI {
                     'comment tu tappelles', 'qui est ce'
                 ],
                 responses: [
-                    "Je suis l'IA d'Adam ! 🤖 Adam est un développeur passionné qui transforme le café en code. Il crée des applications web, des APIs, et adore résoudre des problèmes complexes.",
-                    "Salut ! Je représente Adam, un dev full-stack qui vit pour coder. Il est spécialisé en JavaScript, Python, et tout ce qui touche au web moderne.",
-                    "Adam, c'est un développeur créatif qui aime construire des choses utiles et belles. Et moi, je suis son assistant virtuel ici pour répondre à tes questions ! 🚀"
+                    "Je suis l'IA d'Adam ! 🤖 Adam est un développeur Full-Stack & AI Engineer. Il code des apps web, entraîne des modèles d'IA, et crée des assets digitaux (3D, NFTs). Un profil rare !",
+                    "Salut ! Adam, c'est un dev polyvalent : Frontend (React/Vue), Backend (Node/Python), Intelligence Artificielle, ET création d'assets 3D/NFT. Le package complet ! 🚀",
+                    "Adam combine tech et créativité : développeur full-stack, ingénieur IA, et artiste digital. Du code au design, il maîtrise toute la chaîne ! 💪"
                 ]
             },
             
@@ -138,9 +138,66 @@ class TerminalAI {
                     'frameworks', 'capable de', 'maitrises', 'connait'
                 ],
                 responses: [
-                    "Adam maîtrise pas mal de trucs ! 💪 Frontend: React, Vue.js, TypeScript. Backend: Node.js, Python, Express, Django. DB: PostgreSQL, MongoDB. Et plein d'autres outils cool !",
-                    "Côté technique, c'est du lourd : JavaScript/TypeScript en mode expert, Python pour le backend et l'IA, React/Vue pour les interfaces, et Docker/Git pour le DevOps. 🔥",
-                    "Le stack préféré d'Adam ? React + Node.js + PostgreSQL. Mais il s'adapte facilement à n'importe quelle techno. Le code, c'est le code ! 😎"
+                    "Adam maîtrise un stack complet ! 💪 Frontend: React, Vue.js, JavaScript, Sass. Backend: Node.js, Python, Express, PHP, MongoDB, SQL. Et en bonus : IA et création d'assets 3D/NFT ! 🔥",
+                    "C'est un profil polyvalent : Full-Stack (React/Node/Python), Intelligence Artificielle (ML, Neural Networks, NLP), ET création d'assets digitaux (3D, NFTs, Graphic Design). Le combo ultime ! 🚀",
+                    "4 domaines de compétences : Frontend, Backend, IA/Machine Learning, et Asset Development. Adam peut coder ton app, entraîner un modèle d'IA, ET créer tes visuels ! 😎"
+                ]
+            },
+            
+            // === FRONTEND ===
+            {
+                topic: 'frontend',
+                patterns: [
+                    'frontend', 'front end', 'front', 'react', 'vue', 'javascript',
+                    'html', 'css', 'sass', 'interface', 'ui'
+                ],
+                responses: [
+                    "Côté Frontend, Adam maîtrise : HTML5, CSS3, JavaScript, React, Vue.js et Sass. Des interfaces modernes, réactives et stylées ! ⚡",
+                    "React et Vue.js sont ses frameworks de prédilection. Combinés avec Sass pour le styling, il crée des UIs qui claquent ! 🎨",
+                    "Le Frontend c'est son terrain de jeu : du JavaScript vanilla aux frameworks modernes, en passant par les animations CSS custom. 💻"
+                ]
+            },
+            
+            // === BACKEND ===
+            {
+                topic: 'backend',
+                patterns: [
+                    'backend', 'back end', 'back', 'node', 'nodejs', 'python',
+                    'express', 'api', 'serveur', 'server', 'php', 'sql', 'mongodb'
+                ],
+                responses: [
+                    "Backend solide : Node.js avec Express, Python, PHP, et bases de données MongoDB + SQL. Des APIs robustes et scalables ! 🔧",
+                    "Adam construit des backends performants avec Node.js/Express ou Python. MongoDB pour le NoSQL, SQL pour le relationnel. Full control ! 💪",
+                    "Côté serveur : APIs REST, gestion de BDD, authentification, websockets... Tout ce qu'il faut pour des apps complètes ! 🚀"
+                ]
+            },
+            
+            // === IA / MACHINE LEARNING ===
+            {
+                topic: 'ai_ml',
+                patterns: [
+                    'intelligence artificielle', 'machine learning', 'ml', 'neural',
+                    'deep learning', 'nlp', 'reinforcement', 'reseau de neurones',
+                    'ia', 'ai', 'modele', 'entrainement'
+                ],
+                responses: [
+                    "L'IA, c'est sa passion ! 🤖 Machine Learning, Neural Networks, Reinforcement Learning, NLP & Sentiment Analysis, Graph Neural Networks, et même AI Security & Ethics.",
+                    "Adam développe des modèles d'IA : du ML classique au Deep Learning, en passant par le NLP et le Reinforcement Learning. Il s'intéresse aussi à l'éthique de l'IA ! 🧠",
+                    "Compétences IA : entraînement de réseaux de neurones, analyse de sentiments, Graph Neural Networks... Le futur, c'est maintenant ! 🔮"
+                ]
+            },
+            
+            // === ASSETS / NFT / 3D ===
+            {
+                topic: 'assets',
+                patterns: [
+                    'asset', 'nft', '3d', 'modeling', 'graphic', 'design', 'token',
+                    'creation', 'visuel', 'modelisation', 'digital art', 'crypto art'
+                ],
+                responses: [
+                    "Création d'assets digitaux : 3D Modeling, Graphic Design, NFT Creation, Token Design ! Adam est aussi artiste que développeur. 🎨",
+                    "Du code au design ! Il crée des assets 3D, des NFTs, des tokens, et optimise le tout pour le web. Le package complet ! 💎",
+                    "NFTs, modélisation 3D, design graphique... Adam transforme les idées en visuels. Tech meets Art ! ✨"
                 ]
             },
             
@@ -153,9 +210,9 @@ class TerminalAI {
                     'applications', 'sites', 'construit'
                 ],
                 responses: [
-                    "Adam a bossé sur plein de projets cool ! Des apps web, des APIs REST, des dashboards interactifs, et même des bots Discord. Ce portfolio en est un bon exemple ! 🎨",
-                    "Parmi ses projets : des plateformes e-commerce, des outils de productivité, des apps temps réel avec WebSocket, et ce terminal IA que tu utilises en ce moment ! 😄",
-                    "Il a créé des trucs variés : sites vitrines, applications SaaS, outils d'automatisation, APIs... Chaque projet est une nouvelle aventure ! 🚀"
+                    "Adam a bossé sur des projets variés ! Apps web full-stack, modèles d'IA, collections NFT, assets 3D... Et ce portfolio avec son terminal IA en est un exemple ! 🎨",
+                    "Ses réalisations : plateformes web React/Vue, APIs Node/Python, modèles de Machine Learning, créations NFT, et designs 3D. Un portfolio diversifié ! 💎",
+                    "Du code aux visuels : applications SaaS, outils d'IA, collections de tokens, modélisations 3D... Adam touche à tout ! 🚀"
                 ]
             },
             
@@ -253,9 +310,9 @@ class TerminalAI {
                     'questions', 'commandes', 'options', 'que faire'
                 ],
                 responses: [
-                    "Je peux répondre à plein de trucs ! 💡 Essaie : 'compétences', 'projets', 'contact', 'qui es-tu', 'expérience', 'motivation'...",
-                    "Pose-moi des questions sur Adam : ses skills, ses projets, comment le contacter, son parcours... Je suis là pour ça ! 🤖",
-                    "Tu peux me demander : qui est Adam, ce qu'il sait faire, ses projets, comment le joindre, ou même juste discuter ! 💬"
+                    "Je peux répondre à plein de trucs ! 💡 Essaie : 'frontend', 'backend', 'IA', 'NFT', '3D', 'projets', 'contact'...",
+                    "Pose-moi des questions sur Adam : ses skills (frontend, backend, IA, assets), ses projets, comment le contacter... 🤖",
+                    "Tu peux demander : 'compétences', 'machine learning', 'react', 'nft', 'projets', 'contact', ou même juste discuter ! 💬"
                 ]
             },
             
