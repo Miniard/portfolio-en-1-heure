@@ -236,12 +236,12 @@ class TerminalAI {
                 patterns: [
                     'contact', 'email', 'mail', 'joindre', 'contacter',
                     'embaucher', 'recruter', 'collaborer', 'travail ensemble',
-                    'disponible', 'freelance', 'mission'
+                    'disponible', 'freelance', 'mission', 'github', 'linkedin'
                 ],
                 responses: [
-                    "Tu veux contacter Adam ? 📧 Check les liens en bas de page : GitHub, LinkedIn, ou email direct. Il répond généralement assez vite !",
-                    "Pour bosser avec Adam, c'est simple : envoie-lui un message via LinkedIn ou par email. Il est toujours open pour discuter de nouveaux projets ! 🤝",
-                    "Adam est disponible pour des missions freelance ou des collaborations. N'hésite pas à le contacter via les réseaux sociaux en footer ! 📬"
+                    "Tu veux contacter Adam ? 📧 GitHub: github.com/Miniard ou LinkedIn ! Check les liens en bas de page. Il répond vite ! 🚀",
+                    "Pour bosser avec Adam : LinkedIn (Adam Leroy) ou GitHub (@Miniard). Il est toujours open pour discuter de nouveaux projets ! 🤝",
+                    "Adam est disponible pour des missions freelance ! Contacte-le sur LinkedIn ou check son GitHub pour voir ses projets. 💼"
                 ]
             },
             
